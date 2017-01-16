@@ -5,10 +5,11 @@ Uploaders: Emanuele Rocca <ema@wikimedia.org>, Luca Toscano <ltoscano@wikimedia.
 Build-Depends: debhelper (>= 9), libvarnishapi-dev (>=4.1.2), librdkafka-dev,
  libyajl-dev, zlib1g-dev
 Standards-Version: 3.9.7
-Section: web
+Section: sysadmin
 
 Package: varnishkafka
 Architecture: any
+Section: sysadmin
 Depends: varnish (>=4.1.2), ${shlibs:Depends}, ${misc:Depends}
 Enhances: varnish
 Description: Varnish to Kafka log streamer
@@ -22,7 +23,7 @@ Description: Varnish to Kafka log streamer
 
 Package: varnishkafka-dbg
 Architecture: any
-Section: debug
+Section: sysadmin
 Priority: extra
 Depends: varnishkafka (= ${binary:Version}), ${misc:Depends}
 Description: Varnish to Kafka log streamer
