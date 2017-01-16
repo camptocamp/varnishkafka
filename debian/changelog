@@ -1,7 +1,9 @@
 varnishkafka (1.0.11-1~c2c+jessie) jessie; urgency=medium
 
   * Non-maintainer upload.
-  * debian/control: updated Section.
+  * debian/control:
+    - updated Section.
+    - decreased minimum libvarnishapi1 build dep version.
   * Built out of custom branch including these patches:
     - Add new log.statistics.append config option
     - Allocate only the needed size for the format structure array
