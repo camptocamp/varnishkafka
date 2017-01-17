@@ -1,0 +1,13 @@
+[Unit]
+Description=Push varnish logs into Kafka
+After=varnish.service
+Requires=varnish.service
+
+[Service]
+User=root
+ExecStart=/usr/bin/varnishkafka
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
