@@ -4,13 +4,15 @@ varnishkafka (1.0.11-1~c2c+jessie) jessie; urgency=medium
   * debian/control:
     - updated Section.
     - decreased minimum libvarnishapi1 build dep version.
+    - incresed librdkafka build dep version.
+  * Added systemd unit file.
   * Built out of custom branch including these patches:
     - Add new log.statistics.append config option
     - Allocate only the needed size for the format structure array
     - Recent versions of librdkafka allow to negociate API versions
     - Check the Request Authorization Header for '%u'
 
- -- Marc Fournier <marc.fournier@camptocamp.com>  Mon, 16 Jan 2017 15:30:53 +0100
+ -- Marc Fournier <marc.fournier@camptocamp.com>  Tue, 17 Jan 2017 16:30:43 +0100
 
 varnishkafka (1.0.11-1) jessie-wikimedia; urgency=medium
 
