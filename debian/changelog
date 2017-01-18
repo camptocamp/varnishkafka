@@ -12,7 +12,7 @@ varnishkafka (1.0.11-1~c2c+jessie) jessie; urgency=medium
     - Recent versions of librdkafka allow to negociate API versions
     - Check the Request Authorization Header for '%u'
 
- -- Marc Fournier <marc.fournier@camptocamp.com>  Tue, 17 Jan 2017 16:30:43 +0100
+ -- Marc Fournier <marc.fournier@camptocamp.com>  Wed, 18 Jan 2017 11:54:10 +0100
 
 varnishkafka (1.0.11-1) jessie-wikimedia; urgency=medium
 
