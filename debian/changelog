@@ -1,3 +1,10 @@
+varnishkafka (1.0.12-1~c2c+stretch) stretch; urgency=medium
+
+  * Rebuild for stretch/varnish 5
+  * Bump to 1.0.12 upstream version.
+
+ -- Marc Fournier <marc.fournier@camptocamp.com>  Mon, 13 Mar 2017 17:55:24 +0100
+
 varnishkafka (1.0.11-1~c2c+jessie) jessie; urgency=medium
 
   * Non-maintainer upload.
