@@ -46,6 +46,7 @@
 #include <syslog.h>
 #include <netdb.h>
 #include <limits.h>
+#include <stdint.h>
 #include <stdbool.h>
 
 #include <vapi/vsm.h>
